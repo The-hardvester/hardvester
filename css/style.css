@@ -663,6 +663,10 @@ body {
     bottom: 25px;
     right: 27px;
   }
+  .fix-btn{
+    position: relative;
+    right: 29px;
+  }
   .main-1 .video-1{
     width: 320px;
     position: relative;
