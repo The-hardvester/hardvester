@@ -28,6 +28,13 @@ p{
   visibility: hidden;
 }
 
+marquee{
+  z-index: 999999;
+}
+.marquee{
+  z-index: 999999;
+}
+
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -136,7 +143,15 @@ nav .left{
 .carousel-item .text{
   text-align: justify;
 }
+ /* marquee */
 
+ marquee{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+ }
+ .marqtext{
+   position: relative;
+   top: 7px;
+ }
 /* main-6-title fix*/
 
 .main-6-title h3{
@@ -675,7 +690,10 @@ body {
   .video-1{
     object-fit: fill;
   }
-
+   marquee {
+     position: relative;
+     top: 30px;
+   }
   .main-1-title h3{
     position: relative;
     right: 69px;
