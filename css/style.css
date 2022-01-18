@@ -688,6 +688,7 @@ body {
    marquee {
      position: relative;
      top: 30px;
+     z-index: 0;
    }
   .main-1-title h3{
     position: relative;
