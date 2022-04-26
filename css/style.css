@@ -7,6 +7,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+.EN{
+  height: 24px;
+}
 p{
   font-size: 20px;
   font-family: 'Inter', sans-serif;
