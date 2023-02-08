@@ -7,6 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
+.navbar-brand img{
+  width: 140px;
+}
 p{
   font-size: 20px;
   font-family: 'Inter', sans-serif;
@@ -771,11 +774,19 @@ body {
   .main-1{
     margin-left: 55px;
   }
+  footer ul li{
+    position: relative;
+    left: 430px;
+  }
   }
   @media only screen and (min-width: 1380px) and (max-width: 1699px){
     .main-6{
       position: relative;
       right: 160px;
+    }
+    footer ul li{
+      position: relative;
+      left: 540px;
     }
     
     }
